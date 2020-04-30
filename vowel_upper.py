@@ -1,3 +1,5 @@
+#Source Code:--
+
 def vowel_upper(S):
     for letter in S:
         letter=ord(letter)
@@ -7,3 +9,10 @@ def vowel_upper(S):
         
         else:
             print(chr(letter),end="")
+            
+#Driver Code:--
+vowel_upper("i am shruti")
+
+#Output:--
+I Am shrUtI
+
