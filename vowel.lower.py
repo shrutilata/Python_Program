@@ -1,3 +1,5 @@
+#Source Code:--
+
 def vowel_lower(S):
     for letter in S:
         letter = ord(letter)
@@ -7,4 +9,12 @@ def vowel_lower(S):
         
         else:
             print(chr(letter),end="")
+            
+#Driver code:--
+
+vowel_lower("SHRUTI")
+
+#Output:--
+
+SHRuTi
     
